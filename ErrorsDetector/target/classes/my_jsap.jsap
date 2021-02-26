@@ -1,0 +1,101 @@
+{
+	"host": "localhost",
+	"oauth": {
+		"enable": false
+	},
+	"sparql11protocol": {
+		"protocol": "http",
+		"port": 8000,
+		"query": {
+			"path": "/query",
+			"method": "POST",
+			"format": "JSON"
+		},
+		"update": {
+			"path": "/update",
+			"method": "POST",
+			"format": "JSON"
+		}
+	},
+	"sparql11seprotocol": {
+		"protocol": "ws",
+		"reconnect": true,
+		"availableProtocols": {
+			"ws": {
+				"port": 9000,
+				"path": "/subscribe"
+			},
+			"wss": {
+				"port": 9443,
+				"path": "/secure/subscribe"
+			}
+		}
+	},
+	"extended": {
+		"type": "basic",
+		"base": 0,
+		"clients": 10,
+		"messages": 10
+	},
+	"graphs": {
+		
+	},
+	"namespaces": {
+		"schema": "http://schema.org/",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"sosa": "http://www.w3.org/ns/sosa/",
+		"qudt": "http://qudt.org/schema/qudt#",
+        "xs": "http://www.w3.org/2001/XMLSchema#",
+        "unit": "http://qudt.org/vocab/unit#"
+	},
+	"updates": {
+		"ADD_OBSERVATION_SOIL_MOISTURE": {
+			"forcedBindings": {
+				"comment": {
+					"type": "literal",
+					"value": "This is an observation"
+				},
+				"label": {
+					"type": "literal",
+					"value": "soil moisture"
+				},
+				"timestamp": {
+					"type": "literal",
+					"value": "01/01/0001 00:00:00"
+				},
+				"value": {
+					"type": "literal",
+					"value": "0"
+				},
+				"observation": {
+					"type": "uri",
+					"value": "http://soilMoisture"
+				},
+				"graph": {
+					"type": "uri",
+					"value": "http://sample/tesi"
+				}
+			},
+			"sparql": "INSERT {GRAPH ?graph {?observation rdf:type sosa:Observation ; rdfs:label ?label ; rdfs:comment ?comment ; sosa:resultTime ?timestamp ; sosa:hasResult _:quantity . _:quantity rdf:type qudt:QuantityValue ; qudt:numericValue ?value}} WHERE {}"
+		},
+		"UPDATEVALUE": {
+			"forcedBindings": {
+				"observation": {
+					"type": "uri",
+					"value": "http://prova"
+				},
+				"value": {
+					"type": "literal",
+					"datatype": "xs:integer",
+					"value": "0"
+				}
+			},
+			"sparql": "WITH <http://wot.arces.unibo.it/observation> DELETE { ?quantity qudt:numericValue ?oldValue . ?observation sosa:resultTime ?oldTime } INSERT { ?quantity qudt:numericValue ?value . ?observation sosa:resultTime ?timestamp } WHERE {BIND(now() AS ?timestamp) . ?observation rdf:type sosa:Observation ; sosa:hasResult ?quantity . OPTIONAL { ?observation sosa:resultTime ?oldTime . ?quantity qudt:numericValue ?oldValue}}"
+		}
+		},
+	"queries": {
+		"SOIL_MOISTURE": {
+			"sparql": "SELECT ?observation  ?value ?timestamp FROM <http://sample/tesi> WHERE {VALUES ?observation {<http://soil_moisture>} ?observation rdf:type sosa:Observation ; sosa:resultTime ?timestamp . ?quantity qudt:numericValue ?value }"
+		}
+	}
+}

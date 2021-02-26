@@ -1,0 +1,92 @@
+2021-02-23T21:49:28,008|[FATAL]|JavaFX Application Thread|(JSAP.java:672)|SPARQL query SOIL_MOISTURE not found
+
+2021-02-23T21:49:28,012|[FATAL]|JavaFX Application Thread|(Consumer.java:64)|SUBSCRIBE ID [SOIL_MOISTURE] not found in /C:/Users/samuele_pc/eclipse-workspace/ErrorsDetector/target/classes/chat.jsap
+
+2021-02-23T21:49:58,620|[FATAL]|JavaFX Application Thread|(JSAP.java:672)|SPARQL query SOIL_MOISTURE not found
+
+2021-02-23T21:49:58,621|[FATAL]|JavaFX Application Thread|(Consumer.java:64)|SUBSCRIBE ID [SOIL_MOISTURE] not found in endpoint.jpar
+
+2021-02-23T21:51:42,032|[FATAL]|JavaFX Application Thread|(JSAP.java:672)|SPARQL query SOIL_MOISTURE not found
+
+2021-02-23T21:51:42,051|[FATAL]|JavaFX Application Thread|(Consumer.java:64)|SUBSCRIBE ID [SOIL_MOISTURE] not found in /C:/Users/samuele_pc/eclipse-workspace/ErrorsDetector/target/classes/chat.jsap
+
+2021-02-23T21:52:16,887|[FATAL]|JavaFX Application Thread|(JSAP.java:672)|SPARQL query SOIL_MOISTURE not found
+
+2021-02-23T21:52:16,888|[FATAL]|JavaFX Application Thread|(Consumer.java:64)|SUBSCRIBE ID [SOIL_MOISTURE] not found in endpoint.jpar
+
+2021-02-23T21:55:31,665|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:55:38,684|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:55:45,696|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:55:52,709|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:55:59,723|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:56:06,736|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:56:13,748|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:57:03,041|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:57:10,060|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:57:32,682|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:57:39,701|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T21:57:46,716|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:44:53,919|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:00,938|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:07,950|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:14,965|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:28,609|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:35,627|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:42,642|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:49,655|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-23T22:45:56,667|[ERROR]|JavaFX Application Thread|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:16:07,693|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:16:14,708|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:16:21,718|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:16:28,729|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:16:35,742|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:16:42,752|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:09,586|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:16,604|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:23,619|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:30,633|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:37,645|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:44,660|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:51,672|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:18:58,684|[ERROR]|http://soilMoisture|(WebsocketClientEndpoint.java:190)|Connection failed.
+
+2021-02-26T22:19:35,506|[ERROR]|Grizzly(2)|(WebsocketClientEndpoint.java:128)|{"error":"IOException","status_code":500,"error_description":"Connect to localhost:9999 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information"}
+
+2021-02-26T22:19:35,511|[ERROR]|Grizzly(2)|(Consumer.java:187)|{"error":"IOException","status_code":500,"error_description":"Connect to localhost:9999 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information"}
+
+2021-02-26T22:19:35,513|[ERROR]|Grizzly(2)|(Consumer.java:188)|Subscribed: false Token expired: false SM: false
+
